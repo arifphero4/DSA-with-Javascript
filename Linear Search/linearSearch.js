@@ -4,7 +4,7 @@ let target = 9;
 function linearSearch(array, targetValue) {
   for (let i = 0; i < array.length; i++) {
     if (array[i] === targetValue) {
-      return i;
+      return "data found in index" + " " + i;
     }
   }
   return "targeted value not found!";
